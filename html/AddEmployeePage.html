@@ -28,27 +28,27 @@
 
             <div class="row-content">
                 <label class="label text" for="name">Name</label>
-                <input class="input"type="text" name="name" >
+                <input class="input"type="text" name="name" id="name">
             </div>
 
             <div class="row-content">
                 <label for="profile" class="label text" >Profile Image</label>
                 <div class="profile-radio-content">
                     <label>
-                        <input type="radio"  name="profile" value="\images\profile1.jpg" required>
-                        <img class="profile" id="image1" src="\images\profile1.jpg" alt="">
+                        <input type="radio"  name="profile" id="image1" value="\images\profile1.jpg" required>
+                        <img class="profile"  src="\images\profile1.jpg" alt="">
                     </label>
                     <label>
-                        <input type="radio"  name="profile" value="\images\profile2.jpg" required>
-                        <img class="profile" id="image1" src="\images\profile2.jpg" alt="">
+                        <input type="radio"  name="profile" id="image1" value="\images\profile2.jpg" required>
+                        <img class="profile"  src="\images\profile2.jpg" alt="">
                     </label>
                     <label>
-                        <input type="radio" name="profile" value="\images\profile3.jpg" required>
-                        <img class="profile" id="image1" src="\images\profile3.jpg" alt="">
+                        <input type="radio" name="profile" id="image1" value="\images\profile3.jpg" required>
+                        <img class="profile"  src="\images\profile3.jpg" alt="">
                     </label>
                     <label>
-                        <input type="radio" name="profile" value="\images\profile4.jpg" required>
-                        <img class="profile" id="image1" src="\images\profile4.jpg" alt="">
+                        <input type="radio" name="profile" id="image1" value="\images\profile4.jpg" required>
+                        <img class="profile" src="\images\profile4.jpg" alt="">
                     </label>
                 </div>
             </div>
@@ -56,10 +56,10 @@
             <div class="row-content">
                 <label for="gender" class="label text">Gender</label>
                 <div>
-                    <input type="radio" name="gender" value="male" required>
+                    <input type="radio" name="gender" id="gender" value="male" required>
                     <label for="male" class="text">Male</label>
 
-                    <input type="radio" name="gender" value="female" required>
+                    <input type="radio" name="gender" id="gender" value="female" required>
                     <label for="female" class="text">Female</label>
                 </div>
 
@@ -67,29 +67,29 @@
 
             <div class="row-content">
                 <label for="department" class="text label">Department</label> 
-                <div class="checkbox-content ">
+                <div class="checkbox-content">
                     <div>
-                        <input type="checkbox" type="checkbox",name="hr" value="hr">
+                        <input type="checkbox" name="checkbox" value="hr">
                         <label  class="text" for="hr">HR</label>
                     </div>
 
                     <div>
-                        <input type="checkbox" type="checkbox",name="Sales" value="Sales">
+                        <input type="checkbox" name="checkbox" value="Sales">
                         <label  class="text" for="Sales">SALES</label>
                     </div>
 
                     <div>
-                        <input type="checkbox" type="checkbox",name="Finance" value="Finance">
+                        <input type="checkbox" name="checkbox" value="Finance">
                         <label  class="text" for="Finance">FINANCE</label>
                     </div>
 
                     <div>
-                        <input type="checkbox" type="checkbox",name="Engineer" value="Engineer">
+                        <input type="checkbox" name="checkbox" value="Engineer">
                         <label  class="text" for="Engineer">ENGINEER</label>
                     </div>
 
                     <div>
-                        <input type="checkbox" type="checkbox",name="Others" value="Others">
+                        <input type="checkbox" name="checkbox" value="Others">
                         <label  class="text" for="Others">OTHERS</label>
                     </div>
                 </div>
@@ -98,7 +98,7 @@
 
             <div class="row-content">
                 <label for="salary" class="text label">Salary</label>
-               <select name="Salary">
+               <select name="Salary"id="salary">
                 <option value="Salary">Salary</option>
                 <option value="Less than 10,000">Less than 10,000</option>
                 <option value="10,000-20,000">10,000-20,000</option>
@@ -114,7 +114,7 @@
             <div class="row-content">
                <label for="startDate" class="label text">Start Date</label>
                <div>
-                <select name ="day">
+                <select name ="day" id="day">
                     <option  value="0">Day</option>
                     <option  value="1">1</option>
                     <option value="2">2</option>
@@ -151,7 +151,7 @@
 
                 </select>
 
-                <select name="Month" >
+                <select name="Month" id="month">
                     <option value="">Month</option>
                     <option value="Jan">January</option>
                     <option value="Feb">February</option>
@@ -167,7 +167,7 @@
                     <option value="Dec">December</option>
                     
                 </select>
-                <select name="Year" >
+                <select name="Year" id="year">
                     <option value="2023">Year</option>
                     <option value="2023">2023</option>
                     <option value="2022">2022</option>
@@ -191,20 +191,20 @@
 
             <div class="row-content">
                 <label for="notes" class="label text"> Notes</label>
-                <textarea name="notes" cols="80" rows="8"></textarea>
+                <textarea name="notes" id="notes"cols="80" rows="8"></textarea>
                 
             </div>
 
             <div class="buttonParent">
                 <a href="index.html" class="restButton button cancelButton">Cancel</a>
                 <div class="submit-reset">
-                    <button type="submit" class="button submitButton">Submit</button>
+                    <button type="submit" onclick="submitForm()" class="button submitButton" id="submit">Submit</button>
                     <button type="reset" class="button resetButton">Reset</button>
 
                 </div>
             </div>
         </form>
     </div>
-    <script src="Js\style.js"></script>
+    <script src="/style.js"></script>
 </body>
 </html>
