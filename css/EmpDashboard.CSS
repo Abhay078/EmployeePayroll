@@ -1,0 +1,129 @@
+.header{
+    padding:15px;
+    background-color: white;
+}
+.header-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    padding-left: 98px;
+}
+.employee-text{
+    font:normal normal bold 15px Roboto;
+    font-family: 'Roboto', sans-serif;
+    color:#82a70c;
+    text-transform: capitalize;
+}
+.emp-payroll{
+    color:#42515f;
+}
+.logo-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+}
+.logo-content-img{
+    width: 40px;
+    height: 40px;
+    border: 1px solid;
+    border-right-color: #42515f;
+    border-top-color:#82a70c ;
+    border-left-color: #82a70c;
+    border-bottom-color: #42515f;
+    margin: 7px;   
+}
+.content {
+    background-color: whitesmoke;
+    border:0px solid lightgray;
+}
+.table {
+    width: 70%;
+    margin-top:3em;
+    background:white 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+}
+.add_new{
+    padding: 10px  20px;
+    color:white;
+    background-color: #749b07;
+    text-decoration: none;
+    border-radius: 6px;
+}
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+table{
+    width: 100%;
+    table-layout: fixed;
+    min-width: 1000px;  
+    border-collapse: collapse;
+    font-size: 12px;
+}
+.table_header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    
+}
+.search{
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline:none;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-right: 10px;
+    background-color: white;
+}
+.nav{
+    display:flex;
+    justify-content: space-between;
+    padding-left: 170px;
+    padding-right: 170px;
+    padding-top: 20px;
+    align-items: center;
+    background-color: whitesmoke;
+
+}
+thead th{
+    position: sticky;
+    top:0;
+    background-color: rgb(14, 78, 107);
+    color: lightgray;
+    font-size: 15px;
+    
+}
+th,td{
+    border-bottom: 1px solid #dddddd;
+    word-break: break-all;
+    text-align: left;
+}
+.department{
+    border-radius: 40%;
+    background-color: #bfff16;
+    width: 20px;
+    padding: 5px 10px;
+}
+.profile {
+    
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+}
+.button{
+    outline:none;
+    border: none;
+    border-radius: 50px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: white;
+    margin-right: 10px;
+}
