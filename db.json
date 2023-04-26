@@ -1,0 +1,71 @@
+{
+  "employees": [
+    {
+      "name": "Abhay",
+      "gender": "male",
+      "pic": "\\images\\profile1.jpg",
+      "salary": "Less than 10,000",
+      "departments": [
+        "hr",
+        "Sales",
+        "Finance"
+      ],
+      "startDate": "1-Feb-2022",
+      "note": "Hi",
+      "id": 1
+    },
+    {
+      "name": "Nitik",
+      "gender": "male",
+      "pic": "\\images\\profile1.jpg",
+      "salary": "10,000-20,000",
+      "departments": [
+        "Sales",
+        "Finance"
+      ],
+      "startDate": "1-March-2020",
+      "note": "Hello ",
+      "id": 2
+    },
+    {
+      "name": "Prakhar",
+      "gender": "male",
+      "pic": "\\images\\profile1.jpg",
+      "salary": "10,000-20,000",
+      "departments": [
+        "Sales",
+        "Finance",
+        "Engineer"
+      ],
+      "startDate": "3-April-2022",
+      "note": "Hi, I am Prakhar",
+      "id": 3
+    },
+    {
+      "name": "Siddhant",
+      "gender": "male",
+      "pic": "\\images\\profile1.jpg",
+      "salary": "10,000-20,000",
+      "departments": [
+        "hr",
+        "Sales"
+      ],
+      "startDate": "21-Aug-2014",
+      "note": "Hi i am Siddhant",
+      "id": 4
+    },
+    {
+      "name": "Sanjay",
+      "gender": "male",
+      "pic": "\\images\\profile1.jpg",
+      "salary": "Less than 10,000",
+      "departments": [
+        "hr",
+        "Sales"
+      ],
+      "startDate": "18-Aug-2016",
+      "note": "Hi I am sanjay",
+      "id": 5
+    }
+  ]
+}
