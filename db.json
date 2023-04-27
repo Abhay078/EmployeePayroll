@@ -1,71 +1,98 @@
 {
   "employees": [
     {
-      "name": "Abhay",
-      "gender": "male",
-      "pic": "\\images\\profile1.jpg",
-      "salary": "Less than 10,000",
-      "departments": [
-        "hr",
-        "Sales",
-        "Finance"
-      ],
-      "startDate": "1-Feb-2022",
-      "note": "Hi",
-      "id": 1
-    },
-    {
       "name": "Nitik",
-      "gender": "male",
-      "pic": "\\images\\profile1.jpg",
-      "salary": "10,000-20,000",
+      "gender": "Male",
+      "pic": "\\images\\profile3.jpg",
+      "salary": "30000",
       "departments": [
-        "Sales",
-        "Finance"
-      ],
-      "startDate": "1-March-2020",
-      "note": "Hello ",
-      "id": 2
-    },
-    {
-      "name": "Prakhar",
-      "gender": "male",
-      "pic": "\\images\\profile1.jpg",
-      "salary": "10,000-20,000",
-      "departments": [
-        "Sales",
-        "Finance",
+        "Hr",
         "Engineer"
       ],
-      "startDate": "3-April-2022",
-      "note": "Hi, I am Prakhar",
+      "startDate": "7 March 2022",
+      "note": "Hi i am Nitik",
       "id": 3
     },
     {
-      "name": "Siddhant",
-      "gender": "male",
-      "pic": "\\images\\profile1.jpg",
-      "salary": "10,000-20,000",
+      "name": "Priyanshi",
+      "gender": "Female",
+      "pic": "\\images\\profile4.jpg",
+      "salary": "20000",
       "departments": [
-        "hr",
-        "Sales"
+        "Hr",
+        "Sales",
+        "Finance"
       ],
-      "startDate": "21-Aug-2014",
-      "note": "Hi i am Siddhant",
+      "startDate": "7 Oct 2018",
+      "note": "I am Priyanshi",
       "id": 4
     },
     {
-      "name": "Sanjay",
-      "gender": "male",
+      "name": "Nitik",
+      "gender": "Male",
       "pic": "\\images\\profile1.jpg",
-      "salary": "Less than 10,000",
+      "salary": "20000",
       "departments": [
-        "hr",
-        "Sales"
+        "Sales",
+        "Finance"
       ],
-      "startDate": "18-Aug-2016",
-      "note": "Hi I am sanjay",
+      "startDate": "16 Jan 2010",
+      "note": "Hi i am nitik\n",
       "id": 5
+    },
+    {
+      "name": "Keerthi Kumari",
+      "gender": "Female",
+      "pic": "\\images\\profile2.jpg",
+      "salary": "40000",
+      "departments": [
+        "Hr",
+        "Sales",
+        "Finance"
+      ],
+      "startDate": "14 March 2014",
+      "note": "I am keerthi",
+      "id": 6
+    },
+    {
+      "name": "Abhay",
+      "gender": "Male",
+      "pic": "\\images\\profile3.jpg",
+      "salary": "20000",
+      "departments": [
+        "Engineer"
+      ],
+      "startDate": "12 March 2013",
+      "note": "Hi i am Abhay",
+      "id": 7
+    },
+    {
+      "name": "Priyanshi",
+      "gender": "Female",
+      "pic": "\\images\\profile4.jpg",
+      "salary": "30000",
+      "departments": [
+        "Hr",
+        "Sales",
+        "Finance"
+      ],
+      "startDate": "14 Sept 2014",
+      "note": "Hi I am Priyanshi",
+      "id": 8
+    },
+    {
+      "name": "Prakhar",
+      "gender": "Male",
+      "pic": "\\images\\profile3.jpg",
+      "salary": "40000",
+      "departments": [
+        "Finance",
+        "Engineer",
+        "Others"
+      ],
+      "startDate": "13 March 2016",
+      "note": "Prakhar",
+      "id": 9
     }
   ]
 }
