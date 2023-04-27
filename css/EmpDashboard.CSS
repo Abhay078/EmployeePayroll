@@ -107,8 +107,8 @@ th,td{
     text-align: left;
 }
 .department{
-    border-radius: 40%;
-    background-color: #bfff16;
+    border-radius: 16px;
+    background: #E9FEA5 0% 0% no-repeat padding-box;
     width: 20px;
     padding: 5px 10px;
 }
