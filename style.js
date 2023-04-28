@@ -1,3 +1,7 @@
+const submitButton=document.querySelector('button[type="submit"]');
+
+submitButton.addEventListener('click',submitForm);
+
 function submitForm() {
     let name = document.getElementById('name').value
     let gender = document.querySelector('input[name="gender"]:checked').value;
@@ -34,9 +38,7 @@ function submitForm() {
             console.error('Error:', error);
         });
 
-
-
-
 }
+
 
 
