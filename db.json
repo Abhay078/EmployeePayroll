@@ -1,19 +1,6 @@
 {
   "employees": [
     {
-      "name": "Nitik",
-      "gender": "Male",
-      "pic": "\\images\\profile3.jpg",
-      "salary": "30000",
-      "departments": [
-        "Hr",
-        "Engineer"
-      ],
-      "startDate": "7 March 2022",
-      "note": "Hi i am Nitik",
-      "id": 3
-    },
-    {
       "name": "Priyanshi",
       "gender": "Female",
       "pic": "\\images\\profile4.jpg",
@@ -93,6 +80,42 @@
       "startDate": "13 March 2016",
       "note": "Prakhar",
       "id": 9
+    },
+    {
+      "name": "Sanjay",
+      "gender": "Male",
+      "pic": "\\images\\profile1.jpg",
+      "salary": "30000",
+      "departments": [
+        "Sales"
+      ],
+      "startDate": "17 Jan 2023",
+      "note": "hi sanjay",
+      "id": 11
+    },
+    {
+      "name": "Siddhant",
+      "gender": "Male",
+      "pic": "\\images\\profile1.jpg",
+      "salary": "20000",
+      "departments": [
+        "Engineer"
+      ],
+      "startDate": "16 July 2016",
+      "note": "siddhant",
+      "id": 12
+    },
+    {
+      "name": "Sanjay",
+      "gender": "Male",
+      "pic": "\\images\\profile1.jpg",
+      "salary": "20000",
+      "departments": [
+        "Sales"
+      ],
+      "startDate": "15 Sept 2020",
+      "note": "san",
+      "id": 13
     }
   ]
 }
