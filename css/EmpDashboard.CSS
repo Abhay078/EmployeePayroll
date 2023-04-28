@@ -85,9 +85,9 @@ table{
 }
 .nav{
     display:flex;
-    justify-content: space-between;
-    padding-left: 170px;
-    padding-right: 170px;
+    justify-content: space-around;
+    padding-left: 0px;
+    padding-right: 0px;
     padding-top: 20px;
     align-items: center;
     background-color: whitesmoke;
@@ -126,4 +126,20 @@ th,td{
     cursor: pointer;
     background-color: white;
     margin-right: 10px;
+}
+@media (max-width:900px){
+    .table{
+        max-width: 90%;
+    }
+    table{
+        max-width: 50%;
+    }
+    .table_header{
+        max-width:90% ;
+        display: table-cell;
+    }
+    .nav{
+        display: table-row;
+    }
+    
 }
