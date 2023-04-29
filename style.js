@@ -1,6 +1,6 @@
-const submitButton=document.querySelector('button[type="submit"]');
+const submitButton = document.querySelector('button[type="submit"]');
 
-submitButton.addEventListener('click',submitForm);
+submitButton.addEventListener('click', submitForm);
 
 function submitForm() {
     let name = document.getElementById('name').value
@@ -25,18 +25,41 @@ function submitForm() {
         'startDate': `${day} ${month} ${year}`,
         'note': document.getElementById('notes').value
     }
-    fetch('http://localhost:3000/employees', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(data),
-    })
-        .then((response) => response.json())
+    var url_str = window.location.href;
+    let url = new URL(url_str);
+    let parameter = url.searchParams;
+    let id = parameter.get('id');
 
+    //update part if id available
+    if (id >= 1) {
+        fetch('http://localhost:3000/employees/' + id, {
+            method: 'PUT',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data)
+        })
         .catch((error) => {
             console.error('Error:', error);
         });
+    }
+    //it will add data if id not available
+    else {
+        fetch('http://localhost:3000/employees', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(data),
+        })
+            .then((response) => response.json())
+
+            .catch((error) => {
+                console.error('Error:', error);
+            });
+
+    }
+
 
 }
 
