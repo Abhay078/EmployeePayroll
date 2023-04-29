@@ -26,7 +26,7 @@ var fruit: readonly string[]=['apple','banana'];
 for(let i of fruit){
     console.log(i);
 }
-
+//tuples
 let books:[number,string,number]=[1,'java',123]
 books.push(1,'c#',345);
 books.forEach(element => {
@@ -42,3 +42,20 @@ for(let i of employee){
     console.log(`Id-> ${i[0]}`);
 }
 
+var length=employee.push([4,'Sachin',25000]);
+console.log(`number of element is :- ${length}`);
+
+var element=employee.pop();
+console.log(`Deleted element is :- ${element}`);
+
+function Time():number{
+    return new Date().getHours();
+}
+
+console.log(`The time is :- ${Time()} 'o clock`)
+
+function power(value: number, exponent: number = 10) {
+    return value ** exponent;
+  }
+
+  console.log(power(10));
