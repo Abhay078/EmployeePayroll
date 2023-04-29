@@ -53,43 +53,7 @@ function DeleteEmp(id) {
 }
 
 function EditEmp(id) {
-    DeleteEmp(id);
-    window.location = `./AddEmployeePage.html`;
-    const submitButton = document.querySelector('button[type="submit"]');
-    let name = document.getElementById('name').value
-    let gender = document.querySelector('input[name="gender"]:checked').value;
-    let salary = document.getElementById('salary').value;
-    let profilepic = document.querySelector('input[name="profile"]:checked').value;
-    let day = document.getElementById('day').value;
-    let month = document.getElementById('month').value;
-    let year = document.getElementById('year').value;
-    let note = document.getElementById('notes').value;
-    let departments = document.querySelectorAll('input[name="checkbox"]:checked');
-    var department = [];
-    for (var i = 0; i < departments.length; i++) {
-        department.push(departments[i].value);
-    }
-    submitButton.addEventListener('click', event => {
-        event.preventDefault();
-    })
-    let updatedData = {
-        'name': name,
-        'gender': gender,
-        'pic': profilepic,
-        'salary': salary,
-        'departments': department,
-        'startDate': `${day} ${month} ${year}`,
-        'note': document.getElementById('notes').value
-    }
-    sub
-    fetch('http://localhost:3000/employees/' + id, {
-        method: 'PUT',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(updatedData)
-    })
-
+    window.location = `./AddEmployeePage.html?id=${id}`;
 }
 
 
