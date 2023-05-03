@@ -15,15 +15,14 @@
     {
       "name": "Keerthi Kumari",
       "gender": "Female",
-      "pic": "\\images\\profile4.jpg",
-      "salary": "30000",
+      "pic": "\\images\\profile2.jpg",
+      "salary": "20000",
       "departments": [
         "Hr",
-        "Sales",
         "Finance"
       ],
       "startDate": "12 April 2017",
-      "note": "Hi i am keerthi",
+      "note": "Hi i am keerthi updated again",
       "id": 2
     },
     {
@@ -64,17 +63,28 @@
       "id": 5
     },
     {
+      "name": "abhay",
+      "gender": "Male",
+      "pic": "\\images\\profile1.jpg",
+      "salary": "60000",
+      "departments": [
+        "Hr"
+      ],
+      "startDate": "17 July 2011",
+      "note": "updated",
+      "id": 6
+    },
+    {
       "name": "Nitik",
       "gender": "Male",
       "pic": "\\images\\profile1.jpg",
-      "salary": "20000",
+      "salary": "10000",
       "departments": [
-        "Engineer",
-        "Others"
+        "Hr"
       ],
-      "startDate": "11 June 2021",
-      "note": "Hi i am Nitik",
-      "id": 6
+      "startDate": "15 March 2013",
+      "note": "nitik",
+      "id": 7
     }
   ]
 }
