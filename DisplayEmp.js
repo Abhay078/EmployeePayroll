@@ -34,8 +34,6 @@ function display() {
 }
 document.addEventListener('DOMContentLoaded', () => {
     display();
-
-
 })
 
 

@@ -12,13 +12,12 @@ if (id >= 1) {
         .then(data => {
             document.getElementById('name').value = data.name
             const profileValue = data.pic;
-            const profileButton = document.querySelector(`input[name="profile"][value="${profileValue}"]`);
-            if (profileButton) {
-                profileButton.checked = true;
-            }
-            else {
-                console.log(profileValue);
-            }
+            const profileButtons=document.getElementsByName("profile");
+            profileButtons.forEach(profile => {
+                if(profile.value===profileValue){
+                    profile.checked=true;
+                }
+            });
 
             const genderValue = data.gender;
             const genderCheckbox = document.querySelector(`input[name="gender"][value=${genderValue}]`);
